@@ -14,29 +14,87 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1>Fill The Form and Aply to Our Vaga!</h1>
-        </div>
-    </header>
+    <header> 
+        <nav>
+          <a href="Homepage1.html" target="blank">Subscribe</a>
+          <a href="Firstpart.html"> My Company</a>
+       </nav>  
+      </header>
+          <br>
+          
+          <h1>Job Opportunity | Developer Full Stack </h1>
+          <h2>Fill The Form and Apply to Our Vaga!</h2>
 
     <main>
         <form>
+
             <!--Nome-->
+  
             <label for="name-id">Name</label>
-            <input id="name-id" name="Name" type="text" placeholder="Michael Jackson"> 
+            <input id="name-id"  type="text"  placeholder="Michael Jackson"> 
 
             <br><br>
+
             <!--Data de Nascimento-->
-            <label for="born-id">Born in</label>
-            <input id="born-id" type="date" name="Born In" placeholder="12/12/2000">
-            <br><br>
-            <!--Telefone-->
-            <label for="tel-id">Cellphone</label>
-            <input id="tel-id" type="tel" name="Contact" placeholder="+11 9.9999-9999">
 
+            <label for="born-id">Born In</label>
+            <input id="born-id" type="date"  placeholder="12/12/2000">
+
+            <br><br>
+
+            <!--Telefone-->
             
+            <label for="tel-id">Contact</label>
+            <input id="tel-id" type="tel"  placeholder="+11 9.9999-9999">
+            <br><br>
+
+        
+          <!--Lista Suspensa-->
+          <label for="years">Years of Experience:</label>
+          <select name="" id="years">
+           <option value="">less than 1 Year</option>
+           <option value="">between 1 and 2 years</option>
+           <option value="">between 2 and 4 years</option>
+           <option value="">5 years or more</option>
+        </select>
+        <br><br>
+
+        <!-- caixa de texto para descrever a experiência mais desafiadora no trabalho;  -->
+        <label for="challenge">Describe the most challenging experience working:</label>
+<br>
+        <textarea name="" id="challenge" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <!-- um campo de seleção única onde o usuário  -->
+        <!-- poderá optar pela preferência no trabalho de um ambiente colaborativo ou desafiador; -->
+<br>
+        <label for="challenge">Wich do you prefer?</label>
+<br><br>
+        <input type="radio" name="agrupamento_preferencia" value="collaborative_work environment" > Collaborative work environment
+        <input type="radio" name="agrupamento_preferencia" value="challenging_environment"> Challenging environment
+<br><br>
+       
+
+  <!-- campos de seleção múltipla para selecionar suas principais características (como liderança, trabalho em equipe, comunicação etc.). -->
+
+  <label for="challenge">Your main skills:</label>
+<br><br>
+  <input type="checkbox" name="skills" value="leadership">Leadership
+  <input type="checkbox" name="skills" value="coworking">Coworking
+  <input type="checkbox" name="skills" value="comunication">Comunication
+
+  <br><br><br><br>
+<button type="submit">Sent My data</button>
+  
+
         </form>
+
     </main>
+    <br><br><br>
+    <footer>
+        <br><br><br>
+        <div> © P.O.S COMPANY</div>
+    </footer>
 </body>
 </html>
